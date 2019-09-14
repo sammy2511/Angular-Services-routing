@@ -1,0 +1,13 @@
+.picture { 
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.media{
+    margin-top: 20px;
+}
+
+.media-heading{
+    cursor: pointer;
+}

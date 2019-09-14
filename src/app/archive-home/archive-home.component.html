@@ -1,0 +1,8 @@
+<div>
+  <h1>Archives</h1>
+  <ul *ngFor="let date of posts">
+    <li>
+      <a [routerLink]= "['/archives', date | slice:0:4,date | slice:-1]">{{ date }}</a>
+    </li>
+  </ul>
+</div>
